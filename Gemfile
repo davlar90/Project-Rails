@@ -29,6 +29,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+gem "paperclip"
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -42,3 +44,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
